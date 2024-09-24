@@ -1,0 +1,160 @@
+﻿@page "/f1calendar"
+@inject HttpClient Http
+
+<PageTitle>Formula 1</PageTitle>
+
+<h1>Formula 1</h1>
+
+<h3>2024 F1 Race Calendar</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Grand Prix</th>
+            <th>Venue</th>
+            <th>Podium</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>February 29 – March 2</td>
+            <td>Bahrain Grand Prix</td>
+            <td>Sakhir</td>
+            <td>1st: Max Verstappen, 2nd: Sergio Perez, 3rd: Carlos Sainz</td>
+        </tr>
+        <tr>
+            <td>March 7-9</td>
+            <td>Saudi Arabian Grand Prix</td>
+            <td>Jeddah</td>
+            <td>1st: Max Verstappen, 2nd: Sergio Perez, 3rd: Charles Leclerc</td>
+        </tr>
+        <tr>
+            <td>March 22-24</td>
+            <td>Australian Grand Prix</td>
+            <td>Melbourne</td>
+            <td>1st: Carlos Sainz, 2nd: Charles Leclerc, 3rd: Lando Norris</td>
+        </tr>
+        <tr>
+            <td>April 5-7</td>
+            <td>Japanese Grand Prix</td>
+            <td>Suzuka</td>
+            <td>1st: Max Verstappen, 2nd: Sergio Perez, 3rd: Carlos Sainz</td>
+        </tr>
+        <tr>
+            <td>April 19-21</td>
+            <td>Chinese Grand Prix</td>
+            <td>Shanghai</td>
+            <td>1st: Max Verstappen, 2nd: Lando Norris, 3rd: Sergio Perez</td>
+        </tr>
+        <tr>
+            <td>May 3-5</td>
+            <td>Miami Grand Prix</td>
+            <td>Miami</td>
+            <td>1st: Lando Norris, 2nd: Max Verstappen, 3rd: Charles Leclerc</td>
+        </tr>
+        <tr>
+            <td>May 17-19</td>
+            <td>Emilia Romagna Grand Prix</td>
+            <td>Imola</td>
+            <td>1st: Max Verstappen, 2nd: Sergio Perez, 3rd: Carlos Sainz</td>
+        </tr>
+        <tr>
+            <td>May 24-26</td>
+            <td>Monaco Grand Prix</td>
+            <td>Monaco</td>
+            <td>1st: Charles Leclerc, 2nd: Sergio Perez, 3rd: Carlos Sainz</td>
+        </tr>
+        <tr>
+            <td>June 7-9</td>
+            <td>Canadian Grand Prix</td>
+            <td>Montreal</td>
+            <td>1st: Max Verstappen, 2nd: Charles Leclerc, 3rd: Carlos Sainz</td>
+        </tr>
+        <tr>
+            <td>June 21-23</td>
+            <td>Spanish Grand Prix</td>
+            <td>Barcelona</td>
+            <td>1st: Max Verstappen, 2nd: Sergio Perez, 3rd: Lando Norris</td>
+        </tr>
+        <tr>
+            <td>June 28-30</td>
+            <td>Austrian Grand Prix</td>
+            <td>Spielberg</td>
+            <td>1st: George Russell, 2nd: Oscar Piastri, 3rd: Carlos Sainz</td>
+        </tr>
+        <tr>
+            <td>July 5-7</td>
+            <td>British Grand Prix</td>
+            <td>Silverstone</td>
+            <td>1st: Lewis Hamilton, 2nd: Max Verstappen, 3rd: Lando Norris</td>
+        </tr>
+        <tr>
+            <td>July 19-21</td>
+            <td>Hungarian Grand Prix</td>
+            <td>Budapest</td>
+            <td>1st: Oscar Piastri, 2nd: Lando Norris, 3rd: Carlos Sainz</td>
+        </tr>
+        <tr>
+            <td>July 26-28</td>
+            <td>Belgian Grand Prix</td>
+            <td>Spa</td>
+            <td>1st: Lewis Hamilton, 2nd: George Russell, 3rd: Lando Norris</td>
+        </tr>
+        <tr>
+            <td>August 23-25</td>
+            <td>Dutch Grand Prix</td>
+            <td>Zandvoort</td>
+            <td>1st: Lando Norris, 2nd: Max Verstappen, 3rd: Charles Leclerc</td>
+        </tr>
+        <tr>
+            <td>August 30 – September 1</td>
+            <td>Italian Grand Prix</td>
+            <td>Monza</td>
+            <td>1st: Charles Leclerc, 2nd: Sergio Perez, 3rd: Carlos Sainz</td>
+        </tr>
+        <tr>
+            <td>September 13-15</td>
+            <td>Azerbaijan Grand Prix</td>
+            <td>Baku</td>
+            <td>1st: Oscar Piastri, 2nd: Charles Leclerc, 3rd: George Russell</td>
+        </tr>
+        <tr>
+            <td>September 20-22</td>
+            <td>Singapore Grand Prix</td>
+            <td>Singapore</td>
+            <td>1st: Lando Norris, 2nd: Max Verstappen, 3rd: Oscar Piastri</td>
+        </tr>
+        <tr>
+            <td>October 18-20</td>
+            <td>United States Grand Prix</td>
+            <td>Austin</td>
+        </tr>
+        <tr>
+            <td>October 25-27</td>
+            <td>Mexican Grand Prix</td>
+            <td>Mexico City</td>
+        </tr>
+        <tr>
+            <td>November 1-3</td>
+            <td>Brazilian Grand Prix</td>
+            <td>Sao Paulo</td>
+        </tr>
+        <tr>
+            <td>November 21-23</td>
+            <td>Las Vegas Grand Prix</td>
+            <td>Las Vegas</td>
+        </tr>
+        <tr>
+            <td>November 29 – December 1</td>
+            <td>Qatar Grand Prix</td>
+            <td>Lusail</td>
+        </tr>
+        <tr>
+            <td>December 6-8</td>
+            <td>Abu Dhabi Grand Prix</td>
+            <td>Yas Marina</td>
+        </tr>
+    </tbody>
+</table>
+
